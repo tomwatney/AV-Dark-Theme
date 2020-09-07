@@ -15,10 +15,9 @@
 ![](https://i.imgur.com/AAAEjHq.jpg)
 
 <a name="installation"></a>
-##Installation instructions
-
+## Installation instructions 
 1. Install [browser add-on](#addon "browser add-on")
-2. Copy the CSS code from this Git into the settings of your browser add-on
+2. Copy the [CSS code from this Git](https://github.com/tomwatney/AV-Dark-Theme/blob/master/av-v7-dark-theme.css "CSS code from this Git") into the settings of your browser add-on
 3. Define the URLs/domains it should be applied to
 
 This was designed to work with the default theme (Contrasting Thoughts - purple and orange), but does work with the other themes. 
