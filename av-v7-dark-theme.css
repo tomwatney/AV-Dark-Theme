@@ -46,7 +46,7 @@ body > .card .table > tfoot.select-action > tr > td button.btn-flat
     
 }
 
-.btn-flat {
+body > .card .btn-flat {
     color: white;
     background: #333;
     margin-left: 5px;
@@ -54,7 +54,7 @@ body > .card .table > tfoot.select-action > tr > td button.btn-flat
 }
 
 
-.btn-flat:hover {
+body > .card .btn-flat:hover {
     color: #FF9D29;
     background: #212121;
 }
@@ -96,7 +96,8 @@ body > .card .tooltipContainer {
 .horizontal-tab-row .horizontal-nav .nav-tab .overflow-container .overflow-toggle:after,
 *[data-toggle="collapse"] .icon,
 .sort-container button,
-.rightIcon, .leftIcon, .deleteIcon, body > .card .addMultiIcon
+body > .card .rightIcon, 
+body > .card .leftIcon, .deleteIcon, body > .card .addMultiIcon
 {
     filter: invert(1);
 }
