@@ -12,7 +12,7 @@ table.search-results-table tr th,
 body > .card table.search-results-table .search-results-heading th,
 table.table tr.no-result td,
 table.search-results-table tr.no-result td,
-body > .card .backdark, table
+body > .card .backdark
 {
     color: white;
 }
