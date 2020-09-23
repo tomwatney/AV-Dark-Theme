@@ -11,7 +11,8 @@ body > .card table.search-results-table tr td,
 table.search-results-table tr th,
 body > .card table.search-results-table .search-results-heading th,
 table.table tr.no-result td,
-table.search-results-table tr.no-result td
+table.search-results-table tr.no-result td,
+body > .card .backdark, table
 {
     color: white;
 }
@@ -39,7 +40,8 @@ a:hover,
 a:focus, 
 a:not([href]):hover,
 a:not([href]):focus,
-body > .card .table > tfoot.select-action > tr > td button.btn-flat
+body > .card .table > tfoot.select-action > tr > td button.btn-flat,
+button#selectall:hover 
 
 {
     color: #FF9D29;
@@ -54,7 +56,8 @@ body > .card .btn-flat {
 }
 
 
-body > .card .btn-flat:hover {
+body > .card .btn-flat:hover
+{
     color: #FF9D29;
     background: #212121;
 }
@@ -83,7 +86,8 @@ body > .card .tooltipContainer {
     border: none;
 }
 
-.horizontal-tab-row .horizontal-nav .nav-tab button {
+.horizontal-tab-row .horizontal-nav .nav-tab button,
+button#selectall {
     color: white;
 }
 
